@@ -20,7 +20,6 @@ This repository contains a Rasa chatbot designed to assist with ecommerce-relate
 
 1. Clone this repository:
 
-   ```bash
    git clone https://github.com/AdvantageCommunity/RASA-BOT.git
    cd Rasa-Action-Bot-Ecommerce
    ```
