@@ -5,23 +5,25 @@ intents:
   - goodbye
   - affirm
   - deny
-  - mood_great
-  - mood_unhappy
+  - inquire_order_status
+  - add_to_cart
   - bot_challenge
 
 responses:
   utter_greet:
-  - text: "Hey! How are you?"
+  - text: "Hey! How can i assist you today?"
 
-  utter_cheer_up:
-  - text: "Here is something to cheer you up:"
-    image: "https://i.imgur.com/nGF1K8f.jpg"
+  utter_order_status:
+  - text: "Here is your order status: {order_status}"
 
   utter_did_that_help:
   - text: "Did that help you?"
 
-  utter_happy:
-  - text: "Great, carry on!"
+  utter_add_to_cart_confirm:
+  - text: "Great choice! I've added {product_name} to your cart."
+
+  utter_add_to_cart_failure:
+  - text: "I'm sorry, but there was an issue adding {product_name} to your cart."
 
   utter_goodbye:
   - text: "Bye"

@@ -2,20 +2,20 @@ version: "3.1"
 
 stories:
 
-- story: happy path
-  steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: mood_great
-  - action: utter_happy
-
 - story: check_order_status
   steps:
   - intent: inquire_order_status
   - action: action_check_order_status
+  - action: utter_order_status
 
-
-- story: add_to_cart
+- story: add_to_cart_success
   steps:
   - intent: add_to_cart
   - action: action_add_to_cart
+  - action: utter_add_to_cart_confirm
+
+- story: add_to_cart_failure
+  steps:
+  - intent: add_to_cart
+  - action: action_add_to_cart
+  - action: utter_add_to_cart_failure
