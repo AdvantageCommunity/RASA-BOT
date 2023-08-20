@@ -1,16 +1,17 @@
-## RASA BOT FOR E-COMMERCE
 ```markdown
-# Rasa Action Bot for Ecommerce
+# Rasa Bot for E-Commerce
 
-This repository contains a Rasa chatbot designed to assist with ecommerce-related tasks. The chatbot is trained to interact with users, provide product information, process orders, and offer customer support. It leverages the Rasa framework to handle natural language understanding and dialogue management.
+This repository contains a Rasa chatbot designed to assist with e-commerce-related tasks. The chatbot is trained to interact with users, provide product information, process orders, offer customer support, and handle new features. It leverages the Rasa framework to handle natural language understanding and dialogue management, and utilizes the Transformers BERT model for enhanced language understanding.
 
 ## Features
 
 - Interactive conversation with users for browsing products, placing orders, and getting assistance.
-- Integration with an ecommerce database to retrieve product information and process orders.
+- Integration with an e-commerce database to retrieve product information and process orders.
 - Multi-turn dialogue management for a seamless user experience.
-- Natural language understanding (NLU) using Rasa NLU pipeline components.
+- Natural language understanding (NLU) using Rasa NLU pipeline components, including the Transformers BERT model.
 - Contextual actions to provide relevant responses based on the conversation flow.
+- New Feature: Enhanced order tracking to provide real-time status updates on user orders.
+- New Feature: Personalized recommendations based on user preferences and browsing history.
 
 ### Prerequisites
 
@@ -20,6 +21,7 @@ This repository contains a Rasa chatbot designed to assist with ecommerce-relate
 
 1. Clone this repository:
 
+   ```bash
    git clone https://github.com/AdvantageCommunity/RASA-BOT.git
    cd Rasa-Action-Bot-Ecommerce
    ```
@@ -66,4 +68,3 @@ This project is licensed under the [MIT License](LICENSE).
 ## Contact
 
 For questions or inquiries, please contact [contact@advantagecommunity.in].
-```
