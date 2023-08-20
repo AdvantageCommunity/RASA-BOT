@@ -1,0 +1,36 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - inquire_order_status
+  - add_to_cart
+  - bot_challenge
+
+responses:
+  utter_greet:
+  - text: "Hey! How can i assist you today?"
+
+  utter_order_status:
+  - text: "Here is your order status: "
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_add_to_cart_confirm:
+  - text: "Great choice! I've added  to your cart."
+
+  utter_add_to_cart_failure:
+  - text: "I'm sorry, but there was an issue adding {product_name} to your cart."
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by AdvantageAI."
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
