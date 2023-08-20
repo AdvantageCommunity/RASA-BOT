@@ -2,11 +2,14 @@ version: "3.1"
 
 stories:
 
+<<<<<<< HEAD
 - story: happy path
   steps:
   - intent: greet
   - action: utter_greet
 
+=======
+>>>>>>> cf5e002b1e471428dbe5e05be6bdd3627c470afb
 - story: check_order_status
   steps:
   - intent: inquire_order_status
@@ -23,4 +26,8 @@ stories:
   steps:
   - intent: add_to_cart
   - action: action_add_to_cart
+<<<<<<< HEAD
   - action: utter_add_to_cart_failure
+=======
+  - action: utter_add_to_cart_failure
+>>>>>>> cf5e002b1e471428dbe5e05be6bdd3627c470afb

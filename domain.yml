@@ -14,13 +14,21 @@ responses:
   - text: "Hey! How can i assist you today?"
 
   utter_order_status:
+<<<<<<< HEAD
   - text: "Here is your order status: "
+=======
+  - text: "Here is your order status: {order_status}"
+>>>>>>> cf5e002b1e471428dbe5e05be6bdd3627c470afb
 
   utter_did_that_help:
   - text: "Did that help you?"
 
   utter_add_to_cart_confirm:
+<<<<<<< HEAD
   - text: "Great choice! I've added  to your cart."
+=======
+  - text: "Great choice! I've added {product_name} to your cart."
+>>>>>>> cf5e002b1e471428dbe5e05be6bdd3627c470afb
 
   utter_add_to_cart_failure:
   - text: "I'm sorry, but there was an issue adding {product_name} to your cart."
@@ -29,7 +37,11 @@ responses:
   - text: "Bye"
 
   utter_iamabot:
+<<<<<<< HEAD
   - text: "I am a bot, powered by AdvantageAI."
+=======
+  - text: "I am a bot, powered by Rasa."
+>>>>>>> cf5e002b1e471428dbe5e05be6bdd3627c470afb
 
 session_config:
   session_expiration_time: 60
